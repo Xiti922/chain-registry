@@ -15,6 +15,12 @@
         "secp256k1"
     ],
     "slip44": 118,
+    "explorers":[
+    {
+      "name": "zenscan.io",
+      "url": "https://chronic.zenscan.io"
+    }
+  ],
     "fees": {
         "fee_tokens": [
             {
@@ -96,5 +102,11 @@
         "provider": "ZenChainLabs"
       }]
   },
-    "explorers": ["chronic.zenscan.io"]
+    "explorers": [
+        {
+          "kind": "chronic.zenscan.io",
+          "url": "https://chronic.zenscan.io/",
+          "tx_page": "https://chronic.zenscan.io/transaction/{txHash}"
+        } 
+    ]
 }
